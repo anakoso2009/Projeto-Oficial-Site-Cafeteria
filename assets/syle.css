@@ -156,7 +156,7 @@ height: 70px;
 .parte1 {
   background-image: url(https://chat.google.com/u/1/api/get_attachment_url?url_type=FIFE_URL&content_type=image%2Fpng&attachment_token=AOo0EEVUBVHPow0h7a9vwJQnkA3wQlCkhOuF43HoGgwPiuMbF8I0okZl1%2Bd3XIfdUEzcCnxUdIqwa8C7gL0q35imTeZ%2FSKhF04cXeHD6Y2EbbGdfDqjj2VVP%2BAGHfq4DsVWpghE6HZIazU7Mz2%2F4oXeJrhxtwBunjD%2BIVLv39pncez5oq1WZEQbn8XnHW7HNsHy7nT7AUxSnmI3RlUK4R1iJnGo8KRO6TUi2gOa41BB1y9iVhglcvCfR2XQQl1HvxMarcXy8TRHIrzUjmeG8lwh4EiJfz2JEN3U0euK%2ByHxtffNIcAYgZO9htkpGA6SgwQsYw49OFz91aduqtSiANKXBhXbyRXcKWseX5Oei3pJNMhx5EtKROMHmZUnY8lKritQ5Cc6zRjuu%2Bh4dNjxhcpzKudrYZsotsDv7BwTF8M2RGNriEc8Zn4o%2FUU8V6hiRIvlHEOKLeslt2Qw7wfvgFx8rXirUM%2FWriGHZ1s%2FnLp%2F1Av0DIqxtqOjhrJV37ZyLYq56yfxeA8Ez7ky7pAgMEy6ml7DEESfYzUUtSYVuxCyFiSef0%2BQXlfbCXTr6sHukw30%3D&allow_caching=true&authuser=1&sz=w1920-h970-rw&auditContext=forDisplay);
   color: var(--texto);
-  height: 300px;
+  height: 400px;
   background-size: cover;
   padding-bottom: 30px;
   display: flex;
@@ -182,7 +182,7 @@ button:hover {
 }
 
 h1 {
-  padding-top: 1cm;
+  padding-top: 30px;
 }
 
 p {
@@ -275,15 +275,17 @@ img {
 .cafederramado2 {
   rotate: 160deg;
   position: relative;
-  bottom: 550px;
-  right: 13%;
+  bottom: 50px;
+  right: 60%;
+  height: 8cm;
 }
 
 .cafederramado1 {
   rotate: 140deg;
   position: relative;
-  bottom: 750px;
+  bottom: 400px;
   left: 60%;
+  height: ;
 }
 
 .aspas {
@@ -293,216 +295,3 @@ img {
   right: 10%;
 }
 
-@media screen and (max-width: 768px) {
-  .parte1 {
-    height: 250px; 
-  }
-
-  h1 {
-    padding-top: 2vh;  
-  }
-
-  p {
-    padding-top: 1vh; 
-  }
-
-  img {
-    padding-top: 10px;
-    padding-left: 20px;
-    height: 5cm;  
-  }
-
-  .botao {
-    width: 80px;
-    height: 25px;
-    margin-top: 10px;
-  }
-
-
-  .pt2 {
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 5px;
-  }
-
-  .pb3 {
-    padding-top: 10%;
-    padding-left: 5%;
-    padding-right: 5%;
-    text-align: justify;
-  }
-
-  .botao2 {
-    width: 10vw;  
-    height: 8vh;  
-    left: 1%;
-    bottom: 180px;
-  }
-
-  .botao3 {
-    width: 10vw;
-    height: 8vh;
-    right: 0.5%;
-    bottom: 180px;
-  }
-
-  .img2 {
-    height: 2.5cm;
-    position: relative;
-    bottom: 170px;
-    left: 37%;
-  }
-  
-.cafederramado2 {
-  height: 3cm;
-  rotate: 160deg;
-  position: relative;
-  bottom: 150px;
-  right: 60%;
-}
-
-.cafederramado1 {
-  height: 3cm;
-  rotate: 140deg;
-  position: relative;
-  bottom: 400px;
-  left: 50%;
-}
-
-.aspas {
-  height: 1cm;
-  position: relative;
-  bottom: 740px;
-  right: 50%;
-}
-}
-
-
-@media screen and (min-width: 1200px) {
-  .parte1 {
-    height: 350px;  
-  }
-
-  h1 {
-    padding-top: 3vh;  
-  }
-
-  p {
-    padding-top: 2vh;
-  }
-
-  img {
-    padding-top: 10px;
-    padding-left: 200px;
-    height: 7cm; 
-  }
-
-  .botao {
-    width: 120px;
-    height: 40px;
-    margin-top: 20px;
-  }
-
-.parte2 {
-  background-color: var(--texto);
-}
-
-.pt2 {
-  background-color: rgb(249, 239, 227);
-  margin-top: 2%;
-  border-color: #00ff1a;
-  margin-left: 20%;
-  margin-right: 20%;
-  align-content: center;
-  text-align: center;
-  font-size: 20px;
- 
-}
-
-.pa2 {
-  color: rgba(92, 36, 6, 0.868);
-  text-align: center;
-  font-size: 50px;
-}
-
-.pb2 {
-  color: rgba(92, 36, 6, 0.868);
-  text-align: center;
-  font-size: 20px;
-}
-
-.pb3 {
-  padding-top: 20%;
-  padding-left: 9%;
-  padding-right: 9%;
-  text-align: justify;
-  color: rgba(92, 36, 6, 0.868);
-}
-
-.pc2 {
-  padding-top: 10%;
-  color: rgba(92, 36, 6, 0.868);
-}
-
-.pd2 {
-  color: rgba(92, 36, 6, 0.868);
-  padding-bottom: 20%;
-}
-
-.img2 {
-  height: 5cm;
-  position: relative;
-  bottom: 450px;
-  left: 31%;
-}
-
-.botao2 {
-  background-color: var(--botao);
-  border: none;
-  color: #593716;
-  font-weight: bold;
-  position: relative;
-  bottom: 400px;
-  left: 230px;
-  padding-bottom: 2%;
-  border-radius: 30%;
-   height: 120px;
-  width: 120px;
-}
-
-.botao3 {
-  background-color: var(--botao);
-  border: none;
-  color: #593716;
-  font-weight: bold;
-  position: relative;
-  bottom: 400px;
-  right: 100px;
-  padding-bottom: 2%;
-  border-radius: 30%;
-   height: 120px;
-  width: 120px;
-}
-.cafederramado2 {
-  rotate: 160deg;
-  position: relative;
-  bottom: 750px;
-  right: 2%;
-  height: 9cm;
-}
-
-.cafederramado1 {
-  rotate: 140deg;
-  position: relative;
-  bottom: 900px;
-  left: 50%;
-  height: 9cm;
-}
-
-.aspas {
-  height: 2cm;
-  position: relative;
-  bottom: 1300px;
-  right: 30%;
-}
-}

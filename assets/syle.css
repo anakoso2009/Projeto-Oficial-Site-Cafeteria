@@ -204,14 +204,15 @@ img {
 }
 
 .pt2 {
-  background-color: rgb(249, 239, 227);
-  margin-top: 5%;
+  background-color: rgb(249, 245, 227);
+margin-top: 80px;
   border-color: #FFB266;
-  margin-left: 20%;
-  margin-right: 2;
+ margin-left: 10%;
+  margin-right: 10%;
+
   align-content: center;
   text-align: center;
- padding-bottom: 300px;
+
 }
 
 .pa2 {
@@ -244,10 +245,11 @@ img {
 }
 
 .img2 {
-  height: 3cm;
+  height: 8cm;
   position: relative;
-  bottom: 140px;
-  left: 17%;
+ 
+  bottom: 200px;
+  left: 735px;
 }
 
 .botao2 {

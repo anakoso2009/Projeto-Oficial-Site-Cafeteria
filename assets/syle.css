@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap'); /*Fonte*/
+
+@font-face {
+  font-family: 'Times Ten Pro'; /*Fonte*/
+  src: url('fonts/times-ten-pro-bold.woff2') format('woff2'), 
+       url('fonts/times-ten-pro-bold.woff') format('woff'); 
+  font-weight: 700; 
+}
+
+*{
+ margin: 0%; /*sem margem*/
+ padding: 0%; 
+}

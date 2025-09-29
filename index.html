@@ -8,6 +8,9 @@
   <link rel="stylesheet" href="/assets/syle.css">
 </head>
 
+
+
+
 <body>
   <main>
     <div class="Principal">
@@ -17,7 +20,6 @@
         <div id="canto">
           <p>Bean Scene</p>
         </div>
-        ca
         <div id="meio">
           <p>Home</p>
           <p>Menu</p>
@@ -27,17 +29,17 @@
 
         <div id="lateral">
           <p class="sign">Sign In</p>
-          <p class="coffee-btn">SignUp</p>
+          <p id="signup">SignUp</p>
         </div>
 
       </nav>
 
 
-      <p>We’ve got your morning covered with</p>
+      <p class="pinicial">We’ve got your morning covered with</p>
       <h1 id="fonte">Coffee</h1>
-      <p>It is best to start your day with a cup of coffee. Discover the</p>
-      <p>best flavours coffee you will ever have. We provide the best</p>
-      <p> for our customers.</p>
+      <p class="pinicial">It is best to start your day with a cup of coffee. Discover the</p>
+      <p class="pinicial">best flavours coffee you will ever have. We provide the best</p>
+      <p class="pinicial"> for our customers.</p>
       <p class="espaco"></p>
       <button class="coffee-btn">Order Now</button>
 
@@ -46,13 +48,13 @@
   </main>
   <section class="coffee-div2">
     <div class="coffee-texto">
-      <h2 class="coffee-title">Descubra o melhor café</h2>
+      <h2 class="coffee-title"> Discover the best coffee</h2>
       <p class="coffee-desc">
-        A Bean Scene é uma cafeteria que oferece café de qualidade
-        que ajuda a aumentar sua produtividade e a melhorar seu humor. ㅤㅤ
-        Tomar uma xícara de café é bom, mas tomar uma xícara de café de verdade é
-        melhor ainda. Não há dúvida de que você apreciará este café mais
-        do que outros que já provou.
+        Bean Scene is a coffee shop that provides you with quality coffee
+        that helps boost your productivity and helps build your mood.
+        Having a cup of coffee is good, but having a cup of real coffee is
+        greater. There is no doubt that you will enjoy this coffee more
+        than others you have ever tasted
       </p>
       <button class="coffee-btn">Ver mais</button>
     </div>
@@ -190,10 +192,10 @@
     <nav>
       <h1 class="um"> Get a chance to have an <br>Amazing morning</h1>
       <div class="cafe"> </div>
-      <p>We are giving you are one time opportunity to<br>experience a better life with coffee.</p>
+      <p id="weare">We are giving you are one time opportunity to<br>experience a better life with coffee.</p>
       <button class="botao">Order Now</button>
     </nav>
-    <img src="img/cafesemfundo.png" alt="" height="100px">
+    <img id="cafesemfundo" src="img/cafesemfundo.png" alt="">
   </section>
 
 
@@ -213,21 +215,15 @@
       <h3 class="pd2">Project manenger</h3>
       <div class="img2"> </div>
     </div>
-    <div>
-      <button class="botao2">
-          ←
-      </button>
-      <button class="botao3">
-          →
-      </button>
-    </div> 
 
+<!--
     <img
       src="https://chat.google.com/u/1/api/get_attachment_url?url_type=FIFE_URL&amp;content_type=image%2Fpng&amp;attachment_token=AOo0EEXUFDos7YiRoRldKt%2FRaxYYfVUWPYUN2%2BJ0AVM5Z%2BNYLWmU%2FuCL%2F7GA%2Bs09UAgGxEpu4NjSZ%2BPOseOiccEh4gJf20VwGlLRQuS3MQe%2FbqfSBBotiMakDF6R9klyvNS2u5ofbRWyYi3d7%2FN8%2FjoFLLkbcDuM%2FiXSaR%2BEW%2B22QHDt1sdP7545%2BmUiOmIY402u7Jq9uQAsJELeWkyBCF9MFXVnhIzJBxqcfyvTyMN2tLeXYxEdRovl6du%2B%2BU0cg%2FbEz%2Bk0A8hP4ZivjXUz1Odrx3rWxHYKQHh1fh7%2BbcsFHi1iWoQYXbACsnXjqut6j92ihcQgoAJftZRgLiALCiVmimzX1dfE337D%2BkseB%2B%2FHjHZufcKvksq853kljUrB2kwo9Kf5CeYZo8KH2ae55cl34OfoWQjWjaIJoC4OS1U70bWES%2FfF7woVGXpiV%2FWvugwRyBCgIcBgIK4WpmqI48SZgCFwdbWguwQPuJH%2FsUqnydy3Vk3ZJmUK8vzUfELZn4F7eUkbCAi0QgktPCp702O3BkXXUPkq%2BRi4EOCQ6WbptuJkhWrPbfUeDLH0WVQwFbdk&amp;allow_caching=true&amp;authuser=1&amp;sz=w1920-h970-rw"
       alt="" class="cafederramado1">
     <img
       src="https://chat.google.com/u/1/api/get_attachment_url?url_type=FIFE_URL&amp;content_type=image%2Fpng&amp;attachment_token=AOo0EEVoRxmUgiSQ2j6iYJNtlJBDtE2RYonOhsnNCsHhJwHI4OA%2FT%2F5ZiAw8nwQBSWY%2F41T%2BmO6KnNYu8JlCT8rx0h%2FML%2FmpI2aTFysINx7TJO2vDWm1Y0PNiKgAbTeGm2rflNfct%2BeMyXZAMJorLWvVwfc2213SeAAgrzKaVIFilnjGphtNH22Gl7GXjMws3vNPWZqDt7lcSXg5FBy8M84hnIEZyqYdRPY00fQCpNuA1nMaz6qtN1xRjc6qZfgN0cyEGQOS3ROla2nmXN6p6IDNH28JJMi4qxpOVWg9vPxMH78gTbEt7f4yD39RSUb4M8CmIQZ784j2ZTCy8WdNHW%2F6Y9nqJSbbP24hx%2BXwTgqhsliiUDRwf9S%2BAaIWkhuhB1LGFpgy7JUdGfbocn%2FbibkKz6map5Utx%2FV91Hrn0vUHP46K2NeTeP5S2aVBQzF0bVKmxclPc7j0Jc%2FoTGJvrSuCyaQDlIOJVlGiMEMmLK2tfpJ37%2FM0KnRTYJ4guPJi3CMGz4raQpiWR2chlgzlvYLPMWTZHtdDv205UbX1XRGJ815aQBR3ZuZiBtbIom5NK6U%3D&amp;allow_caching=true&amp;authuser=1&amp;sz=w958-h972-rw"
       alt="" class="cafederramado2">
+  -->
     <img src="img/aspas.png" alt="" class="aspas">
   </section>
 

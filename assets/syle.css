@@ -18,6 +18,16 @@
 :root {
   --texto: #ffffff;
   --botao: #FFB266;
+  --brown: #a26e05;
+  --dark-brown: #6b3b10;
+  --cream: #fff4ea;
+  --panel-border: #f3dbc0;
+  --accent: #f6c57a;
+  --muted: #7a7a7a;
+}
+
+main{
+  width: 100%;
 }
 
 /*Parte Maria Pessoa*/
@@ -37,8 +47,11 @@
   /*cor da fonte*/
   padding-left: 50px;
   /*separar conteúdo da esquerda*/
+  width: 100%;
 
   .coffee-btn {
+    height: 60px;
+    width: 140px;
     background: #f9bf69;
     /*botão de café*/
     color: #603808;
@@ -49,12 +62,22 @@
     /*tamanho da fonte*/
     border: none;
     /*sem borda*/
-    border-radius: 18px;
+    border-radius: 36px;
     /*bordas arredondadas*/
     padding: 9px 20px;
     /*padding do botão*/
     transition: color 0.2s;
     /*transição de cor*/
+  }
+
+  #signup {
+    height: 35px;
+    width: 100px;
+    background-color: #e09a2f;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .coffee-btn:hover {
@@ -65,8 +88,14 @@
   }
 }
 
+.pinicial {
+  line-height: 1cm;
+  font-size: 22px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
 #fonte {
-  font-size: 140px;
+  font-size: 200px;
   font-family: "Parisienne", cursive;
   font-weight: 400;
   font-style: normal;
@@ -96,6 +125,7 @@ nav {
   /*alinhar no centro*/
   justify-content: space-between;
   /*espaço entre as div's*/
+  text-align: center;
 }
 
 #canto {
@@ -106,7 +136,7 @@ nav {
 }
 
 #meio {
-  width: 500px;
+  width: 400px;
   display: flex;
   justify-content: space-between;
 
@@ -201,6 +231,7 @@ nav {
 
 .coffee-div2 {
   display: flex;
+
   flex-wrap: wrap;
   /* Permite quebra de linha automática */
   justify-content: space-around;
@@ -213,14 +244,13 @@ nav {
 
 .coffee-texto {
   flex-direction: column;
-  max-width: 480px;
-
+  max-width: 650px;
 }
 
 /*titulo config*/
 .coffee-title {
   font-family: 'Times Ten Pro', serif;
-  font-size: 2.9rem;
+  font-size: 3.9rem;
   color: #603808;
   margin-bottom: 24px;
 }
@@ -228,8 +258,10 @@ nav {
 .coffee-desc {
   font-family: 'Times Ten Pro', serif;
   color: #787878;
-  font-size: 1.1rem;
+  font-size: 1.6rem;
   margin-bottom: 32px;
+  text-align: left;
+
 }
 
 
@@ -239,7 +271,7 @@ nav {
   color: #603808;
   font-family: 'Times Ten Pro', serif;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.3rem;
   border: none;
   border-radius: 18px;
   padding: 9px 20px;
@@ -264,12 +296,19 @@ nav {
   border-radius: 12px;
 }
 
-/*Parte 3- Cardápio maria ramos*/
+
+/*Ana Beatriz*/
+
+#cafesemfundo {
+  margin-right: 5cm;
+  height: 13cm;
+  margin-top: 1cm;
+}
 
 .parte1 {
   background-image: url(https://chat.google.com/u/1/api/get_attachment_url?url_type=FIFE_URL&content_type=image%2Fpng&attachment_token=AOo0EEVUBVHPow0h7a9vwJQnkA3wQlCkhOuF43HoGgwPiuMbF8I0okZl1%2Bd3XIfdUEzcCnxUdIqwa8C7gL0q35imTeZ%2FSKhF04cXeHD6Y2EbbGdfDqjj2VVP%2BAGHfq4DsVWpghE6HZIazU7Mz2%2F4oXeJrhxtwBunjD%2BIVLv39pncez5oq1WZEQbn8XnHW7HNsHy7nT7AUxSnmI3RlUK4R1iJnGo8KRO6TUi2gOa41BB1y9iVhglcvCfR2XQQl1HvxMarcXy8TRHIrzUjmeG8lwh4EiJfz2JEN3U0euK%2ByHxtffNIcAYgZO9htkpGA6SgwQsYw49OFz91aduqtSiANKXBhXbyRXcKWseX5Oei3pJNMhx5EtKROMHmZUnY8lKritQ5Cc6zRjuu%2Bh4dNjxhcpzKudrYZsotsDv7BwTF8M2RGNriEc8Zn4o%2FUU8V6hiRIvlHEOKLeslt2Qw7wfvgFx8rXirUM%2FWriGHZ1s%2FnLp%2F1Av0DIqxtqOjhrJV37ZyLYq56yfxeA8Ez7ky7pAgMEy6ml7DEESfYzUUtSYVuxCyFiSef0%2BQXlfbCXTr6sHukw30%3D&allow_caching=true&authuser=1&sz=w1920-h970-rw&auditContext=forDisplay);
   color: var(--texto);
-  height: 400px;
+  height: 550px;
   background-size: cover;
   padding-bottom: 30px;
   display: flex;
@@ -280,12 +319,13 @@ nav {
 .botao {
   border-radius: 50px;
   background-color: var(--botao);
-  height: 50px;
-  width: 100px;
+  height: 40px;
+  width: 150px;
   margin-left: 100px;
   margin-top: 8px;
   border: none;
   color: #392511;
+  font-size: 15px;
   font-weight: bold;
   font-family: 'Times Ten Pro', serif;
 
@@ -300,17 +340,17 @@ button:hover {
   padding-top: 150px;
   padding-left: 10px;
   padding-left: 100px;
-  font-size: 40px;
+  font-size: 60px;
 
 
 }
 
-p {
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-left: 100px;
-  font-size: 20px;
-
+#weare {
+  margin-left: 2.5cm;
+  padding: 10px;
+  color: #d8d5d5;
+  line-height: 30px;
+  font-size: 25px;
 }
 
 
@@ -320,7 +360,7 @@ p {
 }
 
 .pt2 {
-  background-color: rgb(255, 246, 204);
+  background-color: rgb(255, 248, 227);
   margin-top: 80px;
   margin-left: 10%;
   margin-right: 10%;
@@ -332,8 +372,6 @@ p {
   justify-content: center;
   flex-direction: column;
   border-color: #8b5b13;
-  border-width: 1cm;
-
 }
 
 .pa2 {
@@ -390,11 +428,6 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-
-  position: relative;
-  bottom: 400px;
-  left: 80px;
-  width: 8%;
   border-radius: 30%;
   font-size: 50px;
 }
@@ -404,20 +437,35 @@ p {
   border: none;
   color: #593716;
   font-weight: bold;
-  position: relative;
-  bottom: 400px;
-  left: 79%;
-  height: 8%;
   width: 8%;
   padding-bottom: 2%;
   border-radius: 30%;
   font-size: 50px;
 }
 
+.botao2, .botao3 {
+  position: static;
+  left: auto;
+  border-radius: 30%;
+  font-size: 50px;
+  height: 2cm;
+  width: 2cm;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.setas-container {
+  display: flex;
+  justify-content: center;
+  gap: 1150px;
+  margin-top: 20px;
+}
+
 .cafederramado2 {
   rotate: 160deg;
   position: relative;
-  bottom: 300px;
+  bottom: 400px;
   right: 820px;
   height: 10cm;
 }
@@ -439,14 +487,7 @@ p {
 }
 
 
-:root {
-  --brown: #a26e05;
-  --dark-brown: #6b3b10;
-  --cream: #fff4ea;
-  --panel-border: #f3dbc0;
-  --accent: #f6c57a;
-  --muted: #7a7a7a;
-}
+/*Maria Alice*/
 
 
 .conteudo-cardapio {
@@ -464,6 +505,7 @@ p {
   font-size: 48px;
   margin: 60px 0 8px;
   line-height: 1;
+  color: #6d3d0d;
 }
 
 .subtitulo {
@@ -687,6 +729,8 @@ p {
   }
 }
 
+
+/*Ana Luiza*/
 
 #div1 {
   width: 100%;
@@ -978,6 +1022,7 @@ h3 {
   cursor: pointer;
   transition: all 0.3s ease;
   font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 3cm;
 }
 
 .why-diff-btn:hover {
@@ -994,5 +1039,163 @@ h3 {
   .why-diff-btn {
     padding: 10px 24px;
     font-size: 0.95rem;
+  }
+}
+
+/* --- Responsividade geral --- */
+@media (max-width: 1200px) {
+  .Principal {
+    height: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #fonte {
+    font-size: 90px;
+  }
+  .coffee-div2 {
+    flex-direction: column;
+    padding: 16px;
+  }
+  .coffee-img img {
+    max-width: 300px;
+  }
+  .cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+  }
+  .pt2 {
+    margin-left: 2%;
+    margin-right: 2%;
+    height: auto;
+    padding: 20px 0;
+  }
+}
+
+@media (max-width: 900px) {
+  .Principal {
+    height: 350px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #fonte {
+    font-size: 60px;
+  }
+  .coffee-div2 {
+    flex-direction: column;
+    padding: 8px;
+  }
+  .coffee-img img {
+    max-width: 200px;
+  }
+  .cards-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .pt2 {
+    margin-left: 1%;
+    margin-right: 1%;
+    height: auto;
+    padding: 10px 0;
+  }
+  .setas-container {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+  .Principal {
+    height: auto;
+    padding: 5px;
+    width: 100%;
+    flex-direction: column;
+  }
+  #fonte {
+    font-size: 36px;
+  }
+  .coffee-div2 {
+    flex-direction: column;
+    padding: 4px;
+  }
+  .coffee-img img {
+    max-width: 120px;
+  }
+  .cards-grid {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  .pt2 {
+    margin-left: 0;
+    margin-right: 0;
+    height: auto;
+    padding: 5px 0;
+  }
+  .setas-container {
+    gap: 10px;
+    margin-top: 5px;
+  }
+  .botao2, .botao3 {
+    font-size: 28px;
+    height: 1.2cm;
+    width: 1.2cm;
+  }
+  .pa2 {
+    font-size: 28px;
+  }
+  .pb2, .pb3, .pc2, .pd2 {
+    font-size: 16px;
+    padding: 5px;
+  }
+  #cafesemfundo {
+    height: 6cm;
+    margin-right: 0;
+    margin-top: 0.5cm;
+  }
+  .parte1 {
+    height: auto;
+    padding-bottom: 10px;
+    flex-direction: column;
+  }
+  .um {
+    font-size: 28px;
+    padding-top: 30px;
+    padding-left: 10px;
+  }
+  #weare {
+    font-size: 16px;
+    margin-left: 0;
+    padding: 5px;
+  }
+  #div1, #div2 {
+    height: auto;
+    padding: 10px 0;
+    flex-direction: column;
+  }
+  #email {
+    width: 90%;
+    height: 1.2cm;
+    font-size: 16px;
+  }
+  #button {
+    width: 90%;
+    height: 1.2cm;
+    font-size: 16px;
+  }
+  .html {
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+/* Ajuste para imagens decorativas */
+@media (max-width: 600px) {
+  .coffee-decor,
+  .cafederramado1,
+  .cafederramado2,
+  .aspas {
+    display: none;
   }
 }

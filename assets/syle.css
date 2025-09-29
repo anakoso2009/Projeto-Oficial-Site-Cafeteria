@@ -205,14 +205,15 @@ img {
 }
 
 .pt2 {
-  background-color: rgb(249, 239, 227);
-  margin-top: 5%;
+  background-color: rgb(249, 245, 227);
+margin-top: 80px;
   border-color: #FFB266;
-  margin-left: 20%;
-  margin-right: 2;
+ margin-left: 10%;
+  margin-right: 10%;
+
   align-content: center;
   text-align: center;
- padding-bottom: 300px;
+
 }
 
 .pa2 {
@@ -245,10 +246,11 @@ img {
 }
 
 .img2 {
-  height: 3cm;
+  height: 8cm;
   position: relative;
-  bottom: 140px;
-  left: 17%;
+ 
+  bottom: 200px;
+  left: 735px;
 }
 
 .botao2 {
@@ -312,17 +314,6 @@ img {
   --muted: #7a7a7a;       
 }
 
-
-*{ box-sizing: border-box; margin:0; padding:0; }
-html,body{ height:100%; }
-body{
-  font-family: "Helvetica Neue", Arial, sans-serif;
-  background: #fff; 
-  color: #333;
-  -webkit-font-smoothing:antialiased;
-  -moz-osx-font-smoothing:grayscale;
-  line-height:1.4;
-}
 
 .conteudo-cardapio{
   max-width: 1100px;
@@ -548,7 +539,7 @@ body{
         align-items: center;
     }
 
-    h1 {
+    #anah1 {
         text-align: center;
         color: white;
         padding-top: 30px;

@@ -11,3 +11,30 @@
  margin: 0%; /*sem margem*/
  padding: 0%; 
 }
+
+.Principal {
+    background-image: url(/img/café\ principal.webp); /*imagem*/
+    background-repeat: no-repeat; /*para não repetir*/
+    background-size: cover; /*para ficar na pagina inteira*/
+    padding-top: 20px; /*separar conteúdo do topo da imagem*/
+    height: 600px; /*altura*/
+    width: 100%; /*largura*/
+    color: #ffffff; /*cor da fonte*/
+    padding-left: 50px; /*separar conteúdo da esquerda*/
+
+    .coffee-btn {
+   background: #f9bf69; /*botão de café*/
+   color: #603808; 
+   font-family: 'Times Ten Pro', serif; 
+   font-weight: bold; /*deixar em negrito*/
+   font-size: 16px;   /*tamanho da fonte*/
+   border: none; /*sem borda*/
+   border-radius: 18px;  /*bordas arredondadas*/
+   padding: 9px 20px;   /*padding do botão*/
+   transition: color 0.2s; /*transição de cor*/
+  }
+  .coffee-btn:hover{
+   background: #d37809; /*cor do botão ao passar o mouse*/
+   color: #fff; /*cor da fonte ao passar o mouse*/
+  }
+}

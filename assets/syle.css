@@ -89,6 +89,9 @@ height: 70px;
   padding-right: 60px;  /*separar conteúdo da direita*/
 }
 
+
+/*dvisão 2 - DIAS*/
+
 .coffee-div2 {
   display: flex;
   flex-direction: row;

@@ -88,3 +88,61 @@ height: 70px;
   align-items: center;
   padding-right: 60px;  /*separar conteúdo da direita*/
 }
+
+
+/*dvisão 2 - DIAS*/
+
+/*config do display da página*/
+.coffee-div2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 32px ;
+  background: #fff;
+}
+
+.coffee-texto {
+  flex-direction: column;
+  max-width: 480px;
+
+}
+/*titulo config*/
+.coffee-title {
+  font-family: 'Times Ten Pro', serif;
+  font-size: 2.9rem;
+  color: #603808;
+  margin-bottom: 24px;
+}
+
+.coffee-desc {
+  font-family: 'Times Ten Pro', serif;
+  color: #787878;
+  font-size: 1.1rem;
+  margin-bottom: 32px;
+}
+
+
+/*configurações do botao embaixo do texto*/
+.coffee-btn {
+  background: #f9bf69;
+  color: #603808;
+  font-family: 'Times Ten Pro', serif;
+  font-weight: bold;
+  font-size: 1rem;      
+  border: none;
+  border-radius: 18px;    
+  padding: 9px 20px;      
+  transition: color 0.2s;
+}
+ .coffee-btn:hover{
+  background: #d37809;
+  color: #fff;
+}
+ 
+/*foto 2 do café derramado na pag*/
+.coffee-decor {
+ margin-top: -175px;
+ margin-left: -9px;
+}
+ 

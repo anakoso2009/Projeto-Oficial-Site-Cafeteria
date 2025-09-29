@@ -168,13 +168,15 @@ height: 70px;
 .botao {
   border-radius: 50px;
   background-color: var(--botao);
-  height: 30px;
+  height: 50px;
   width: 100px;
+  margin-left: 100px;
   margin-top: 8px;
   border: none;
-  color: #593716;
+  color: #392511;
   font-weight: bold;
   font-family: 'Times Ten Pro', serif;
+  
 }
 
 button:hover {
@@ -185,6 +187,8 @@ button:hover {
 .um {
 padding-top: 150px;
 padding-left: 10px;
+padding-left: 100px;
+ font-size: 40px;
  
 
 }
@@ -192,12 +196,14 @@ padding-left: 10px;
 p {
   padding-top: 10px;
   padding-left: 10px;
+  padding-left: 100px;
+  font-size: 20px;
  
 }
 
 img {
 
-  height: 7cm;
+
 }
 
 .parte2 {
@@ -206,9 +212,8 @@ img {
 
 .pt2 {
   background-color: rgb(249, 245, 227);
-margin-top: 80px;
-  border-color: #FFB266;
- margin-left: 10%;
+  margin-top: 80px;
+margin-left: 10%;
   margin-right: 10%;
 
   align-content: center;
@@ -228,43 +233,46 @@ margin-top: 80px;
 }
 
 .pb3 {
-  padding-top: 20%;
+  margin-top: 300px;
+  padding-bottom: 50px;
   padding-left: 9%;
   padding-right: 9%;
   text-align: justify;
-  color: rgba(92, 36, 6, 0.868);
+  color: rgba(91, 41, 14, 0.868);
 }
 
 .pc2 {
-  padding-top: 10%;
-  color: rgba(92, 36, 6, 0.868);
+  padding-top: 6%;
+  color: rgba(87, 38, 12, 0.868);
 }
 
 .pd2 {
   color: rgba(92, 36, 6, 0.868);
-  padding-bottom: 20%;
+  padding-bottom: 13%;
 }
 
 .img2 {
-  height: 8cm;
+  height: 6cm;
   position: relative;
- 
-  bottom: 200px;
-  left: 735px;
+ border-radius: 30px;
+  bottom: 400px;
+  left: 720px;
+  right: 720px ;
 }
 
 .botao2 {
   background-color: var(--botao);
   border: none;
+
   color: #593716;
-  font-weight: bold;
+
   position: relative;
-  bottom: 250px;
-  left: 45px;
-  height: 8%;
+  bottom: 400px;
+  left: 80px;
   width: 8%;
   padding-bottom: 2%;
   border-radius: 30%;
+  font-size: 70px;
 }
 
 .botao3 {
@@ -273,35 +281,36 @@ margin-top: 80px;
   color: #593716;
   font-weight: bold;
   position: relative;
-  bottom: 250px;
-  left: 78%;
+  bottom: 400px;
+ left: 79%;
   height: 8%;
   width: 8%;
   padding-bottom: 2%;
   border-radius: 30%;
+  font-size: 70px;
 }
 
 .cafederramado2 {
   rotate: 160deg;
   position: relative;
-  bottom: 50px;
-  right: 60%;
-  height: 8cm;
+  bottom: 300px;
+  right: 820px;
+  height: 10cm;
 }
 
 .cafederramado1 {
   rotate: 140deg;
   position: relative;
-  bottom: 400px;
-  left: 60%;
-  height: 10px; ;
+  height: 10cm;
+  bottom: 1000px;
+  left: 1035px;
+
 }
 
 .aspas {
   height: 2cm;
   position: relative;
-  bottom: 1150px;
-  right: 10%;
+
 }
 
 

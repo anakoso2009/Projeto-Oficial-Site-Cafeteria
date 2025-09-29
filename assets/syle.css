@@ -162,12 +162,14 @@ nav{
 /*dvisão 2 - DIAS*/
 
 /*config do display da página*/
+
 .coffee-div2 {
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-wrap: wrap; /* Permite quebra de linha automática */
   justify-content: space-around;
-  padding: 32px ;
+  align-items: center;
+  padding: 32px;
+  gap: 20px; /* Espaço entre elementos */
   background: #fff;
 }
 

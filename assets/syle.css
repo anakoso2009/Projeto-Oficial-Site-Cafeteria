@@ -161,7 +161,7 @@ height: 70px;
   padding-bottom: 30px;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: flex;
 }
 
 .botao {
@@ -181,17 +181,19 @@ button:hover {
   color: var(--botao);
 }
 
-h1 {
-  padding-top: 30px;
+.um {
+padding-top: 200px;
+ color: aqua;
+
 }
 
 p {
-  padding-top: 0.5cm;
+  padding-top: 8px;
+   color: chartreuse;
 }
 
 img {
-  padding-top: 10px;
-  padding-left: 200px;
+
   height: 7cm;
 }
 

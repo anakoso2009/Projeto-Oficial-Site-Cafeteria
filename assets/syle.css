@@ -94,6 +94,70 @@ height: 70px;
   padding-right: 60px;  /*separar conteúdo da direita*/
 }
 
+/*Tablet*/
+@media (max-width: 1199px) and (min-width: 768px) {
+  /*Diminuir fontes e larguras de tudo*/
+  #fonte {
+    font-size: 90px; 
+  }
+
+  #meio {
+    width: 350px; 
+    font-size: 14px;
+  }
+
+  .coffee-btn {
+    font-size: 18px;
+    padding: 7px 15px;
+  }
+
+  .Principal {
+    height: 500px;
+    padding-left: 30px;
+  }
+}
+
+/*Celular*/
+@media (max-width: 767px) {
+  /*Diminuir fontes, imagem, larguras e alinhamentos de tudo*/
+.coffee-btn {
+  font-size: 5px;
+}
+nav{
+  font-size: 10px;
+  width: 100%;
+}
+#canto {
+  display: flex;
+  text-align: center;
+}
+#meio {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+#lateral {
+  display: flex;
+  text-align: center;
+}
+  .Principal {
+    text-align: left;
+    background-image: url(/img/café\ da\ principal.webp);
+    padding: 20px;
+  }
+  #fonte {
+    font-size: 50px; 
+  }
+  p{
+    font-size: 15px;
+  }
+
+  #nav {
+    flex-direction: column;
+  }
+ 
+}
+
 
 /*dvisão 2 - DIAS*/
 
@@ -504,12 +568,6 @@ margin-top: 80px;
 
 
 .card p, .card span { line-height:1.25; }
-
-
-@media (max-width: 1100px){
-  .conteudo-cardapio, .porque-somos-diferentes { padding: 0 16px; }
-  .card-img { height: 200px; }
-}
 
 @media (max-width: 900px){
   .cards-grid{ grid-template-columns: repeat(2, 1fr); gap: 18px; }

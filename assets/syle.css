@@ -215,6 +215,13 @@ nav{
  margin-left: -9px;
 }
 
+.coffee-img img {
+  max-width: 400px; /* aumenta o tamanho máximo da imagem */
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
 /*Parte 3- Cardápio maria ramos*/
 
 .parte1 {
